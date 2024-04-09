@@ -26,7 +26,7 @@ const HeroSection = () => {
     </div>
     <div>
       <Image
-        src={product}
+        src="/features/product2.png"
         width="500"
         height="500"
          style={{ borderRadius: '20px' }}

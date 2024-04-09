@@ -6,7 +6,7 @@ import Link from "next/link";
 const TeamCard = ({ imgSrc, name, title }) => {
   return (
     <div className="relative flex flex-col gap-1 md:hover:shadow-lg rounded-xl md:py-10 team-card md:cursor-pointer">
-      <Image
+      <img
         src={imgSrc}
         width={130}
         height={130}

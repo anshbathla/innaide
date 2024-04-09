@@ -19,7 +19,7 @@ const FeatureProduct = ({ imgSrc, title, desc }) => {
 const QualityFeature = ({ imgSrc, title, desc }) => {
   return (
     <div className="flex items-start lg:flex-row sm:flex-col gap-1 sm:gap-4 lg:gap-8">
-      <Image src={imgSrc} width={80} height={80} alt="features" />
+      <img src={imgSrc} width={80} height={80} alt="features" />
       <div className="leading-loose">
         <h3 className="text-lg md:text-xl font-semibold mb-4">{title}</h3>
         <p>{desc}</p>

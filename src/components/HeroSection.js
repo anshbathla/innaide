@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import product from "/Users/anshbathla/Downloads/product2.png"
+
 
 const HeroSection = () => {
   return (

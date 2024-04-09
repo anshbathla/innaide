@@ -25,7 +25,7 @@ const HeroSection = () => {
       </button>
     </div>
     <div>
-      <Image
+      <img
         src="/features/product2.png"
         width="500"
         height="500"

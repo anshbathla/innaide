@@ -4,7 +4,7 @@ import React from "react";
 const FeatureProduct = ({ imgSrc, title, desc }) => {
   return (
     <div>
-      <Image
+      <img
         src={imgSrc}
         width={100}
         height={100}
